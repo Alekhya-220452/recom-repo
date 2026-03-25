@@ -1,0 +1,52 @@
+.navbar {
+ background-color: var(--card-bg);
+ border-bottom: 1px solid var(--border-color);
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+}
+
+.navbar-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.navbar-brand {
+ font-size: 1.25rem;
+ font-weight: 700;
+ color: var(--primary);
+}
+
+.navbar-links {
+ display: flex;
+ align-items: center;
+ gap: 1.5rem;
+}
+
+.navbar-link {
+ color: var(--text-dark);
+ font-weight: 500;
+}
+
+.navbar-link:hover {
+ text-decoration: none;
+ color: var(--primary);
+}
+
+.user-profile {
+ display: flex;
+ align-items: center;
+ margin-left: 1rem;
+ border-left: 1px solid var(--border-color);
+ padding-left: 1.5rem;
+}
+
+.user-name {
+ font-weight: 500;
+ font-size: 0.875rem;
+ color: var(--text-dark);
+}
+
+.ml-2 { margin-left: 0.5rem; }
